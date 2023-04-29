@@ -1,6 +1,6 @@
 # ReqRes API Test Automation
 
-ReqRes API Test Automation using Java and REST Assured.
+[ReqRes](https://reqres.in/) API Test Automation using Java and REST Assured.
 
 ## Installation Steps
 
