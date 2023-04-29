@@ -21,3 +21,57 @@ The project uses the following:
 - *[Jackson](https://github.com/FasterXML/jackson)*
 - *[Lombok](https://projectlombok.org/)*
 - *[JUnit 5](https://junit.org/junit5/)*
+
+## Project Architecture
+
+```bash
+```
+📦 reqres-api-test-automation  
+├─ .github  
+│  └─ workflows  
+│     └─ test-execution.yml  
+├─ .gitignore  
+├─ LICENSE  
+├─ README.md  
+├─ build.gradle  
+├─ gradle  
+│  └─ wrapper  
+│     ├─ gradle-wrapper.jar  
+│     └─ gradle-wrapper.properties  
+├─ gradlew  
+├─ gradlew.bat  
+├─ settings.gradle  
+└─ src  
+   ├─ main  
+   │  └─ java  
+   │     └─ io  
+   │        └─ github  
+   │           └─ tahanima  
+   │              ├─ client  
+   │              │  ├─ AuthClient.java  
+   │              │  ├─ BaseClient.java  
+   │              │  ├─ ResourceClient.java  
+   │              │  └─ UserClient.java  
+   │              └─ model  
+   │                 ├─ Auth.java  
+   │                 ├─ Error.java  
+   │                 ├─ List.java  
+   │                 ├─ Resource.java  
+   │                 ├─ ResourceData.java  
+   │                 ├─ ResourceList.java  
+   │                 ├─ Support.java  
+   │                 ├─ User.java  
+   │                 ├─ UserData.java  
+   │                 └─ UserList.java  
+   └─ test  
+      ├─ java  
+      │  └─ io  
+      │     └─ github  
+      │        └─ tahanima  
+      │           └─ api  
+      │              ├─ AuthTest.java  
+      │              ├─ ResourceTest.java  
+      │              └─ UserTest.java  
+      └─ resources  
+         └─ junit-platform.properties  
+```
