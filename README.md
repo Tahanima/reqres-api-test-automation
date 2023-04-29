@@ -25,7 +25,6 @@ The project uses the following:
 ## Project Architecture
 
 ```bash
-```
 📦 reqres-api-test-automation  
 ├─ .github  
 │  └─ workflows  
